@@ -64,6 +64,8 @@ static_cd = {
 # st.title('CFD Transient 해석 결과 분석 🌊💻⏳🔄')
 with st.sidebar:
     st.title("🌊 CFD Transient 해석 💻")
+    st.write('#### :orange[ - Edge 브라우저 사용]')
+    st.write('#### :orange[ - 다크모드 사용 [우측 상단의 Deploy 옆의 ⋮ 클릭하고 Settings에서 Theme을 Dark로 설정]]')
     st.write("---")
     analysis_target = st.radio("✨ **:green[분석할 대상을 선택하세요:]**", ('토공부 (soil)', '교량부 (bridge)'), horizontal=True, index=1)
     sound_barrier_height = st.radio("✨ **:green[방음벽 높이를 선택하세요:]**", ('2m', '7m', '15m'), horizontal=True, index=2)

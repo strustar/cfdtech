@@ -198,7 +198,7 @@ for idx, file in enumerate(filtered_files):
     fig.update_layout(
         autosize=False, height=400, margin=dict(l=0, r=0, t=0, b=0), #hovermode='x unified',
         hoverlabel=dict(bgcolor='lightgray', font_size=15, font_color='blue'),
-        legend=dict(x=0.5, y=0.95, xanchor='center', yanchor='top', font_size=15, borderwidth=2, bordercolor='green'),
+        legend=dict(x=0.5, y=0.95, xanchor='center', yanchor='top', font_size=15, borderwidth=2, bordercolor='green', bgcolor='black'),
     )
     fig.update_xaxes(
         range=[0, data['flow-time'].max()+0.2], showgrid=True, gridwidth=1, 
